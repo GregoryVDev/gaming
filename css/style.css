@@ -1,0 +1,58 @@
+/* ----------
+    GENERAL 
+   ---------- */
+
+   *
+   {
+    margin: 0;
+    padding: 0px;
+    font-family: "Inter" , sans-serif;
+    box-sizing: border-box;
+   }
+
+   .white
+   {
+    background-color: rgba(0, 0, 235, 0.253);
+   }
+
+
+
+/* ----------
+    NAVBAR
+   ---------- */
+
+   nav
+   {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+   }
+
+   nav ul
+   {
+    display: flex;
+    padding: 20px;
+   }
+
+   nav li
+   {
+    list-style-type: none;
+    margin-right: 40px;
+   }
+
+   nav li a
+   {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #0E0C0E;
+   }
+
+   nav button
+   {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    background: #E0DFDE;
+   }
+
