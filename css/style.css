@@ -6,13 +6,14 @@
    {
     margin: 0;
     padding: 0px;
-    font-family: "Inter" , sans-serif;
+    font-family: "arial" , sans-serif;
     box-sizing: border-box;
    }
 
-   .white
+   body
    {
-    background-color: rgba(0, 0, 235, 0.253);
+    min-height: 100vh;
+    margin: 0;
    }
 
 
@@ -21,38 +22,101 @@
     NAVBAR
    ---------- */
 
-   nav
+   nav ul
    {
     display: flex;
     justify-content: center;
-    position: sticky;
+    align-items: center;
+    padding: 20px;
    }
 
    nav ul
    {
-    display: flex;
-    padding: 20px;
-   }
-
-   nav li
-   {
     list-style-type: none;
-    margin-right: 40px;
    }
 
-   nav li a
+   nav ul li
    {
+    display: inline;
+    margin-right: 30px;
+   }
+
+   nav ul li a
+   {
+    color: #0E0C0E;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
-    color: #0E0C0E;
    }
 
-   nav button
+   #language
    {
     border: 1px solid transparent;
     border-radius: 10px;
-    padding: 5px 10px 5px 10px;
-    background: #E0DFDE;
+    background-color: #e1dfe0a8;
+    padding: 5px 15px 5px 15px;
+    font-weight: 600;
    }
 
+   nav a:hover
+   {
+    color: #5b0077;
+    border-top: 5px solid #5b0077;
+    padding-top: 22px;
+   }
+
+
+
+   /* ----------
+    HEADER
+   ---------- */
+
+   .main-header
+   {
+    background:url('../images/bg.jpg') fixed center/cover;
+    text-align: center;
+    padding: 100px;
+    height: 77vh;
+   }
+
+   header h1
+   {
+    color: white;
+    padding: 25px;
+   }
+
+   header button
+   {
+    font-size: 1rem;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 15px 30px 15px 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+   }
+
+   .fa-angle-right
+   {
+    padding-left: 20px;
+   }
+
+   .header-text p
+   {
+    padding-top: 50px;
+    font-weight: bolder;
+    text-align: center;
+    height: 150px;
+    width: 100%;
+    font-size: 1.1em;
+   }
+
+
+    /* ----------
+    SECTION ICON
+   ---------- */
+
+   .icon-part
+   {
+    background: rgb(29, 29, 29);
+   }
