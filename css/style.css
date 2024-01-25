@@ -115,6 +115,7 @@ header button {
 
 .icon-part-container {
     display: flex;
+    justify-content: center;
 }
 
 .list-icon-part {
@@ -159,8 +160,8 @@ header button {
 
 .header-news {
     display: flex;
-    justify-content: space-between;
-    width: 75%;
+    justify-content: space-evenly;
+
     margin: 0 0 80px 150px;
     align-items: center;
 
@@ -418,3 +419,22 @@ footer ul li {
     margin-right: 30px;
 }
 
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width:970px) 
+{
+        .left-part {
+           width: 40%;
+        }
+
+        .main-new-container .new:nth-child(2) .link {
+            margin-top: 69px;
+        }
+
+        .main-new-container .new:nth-child(3) .link {
+            margin-top: 67px;
+        }
+
+}
